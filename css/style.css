@@ -1,0 +1,349 @@
+@charset "utf-8";
+@import url(reset.css);
+/* CSS Document */
+
+
+body {
+	font: normal 11px Verdana;
+}
+
+.container {
+	background: #232323;
+	max-width: 1070px;
+	margin:	0 auto;
+	border-bottom: 1px solid #323232;
+	border-top: 2px solid #464646;
+}
+
+header {
+	background: url(../images/header_bg.jpg) center bottom no-repeat;
+	width: 1070px;
+	height: 155px;
+}
+
+.top-menu {
+	position: relative;
+	top: 8px;
+	left: 420px;
+}
+
+.top-menu li {
+	float: left;
+	margin: 12px 15px;
+}
+
+.top-menu li a {
+	color: #616161;
+	text-decoration: none;
+}
+
+.top-menu li a:hover {
+	text-decoration: underline;
+}
+
+.top-menu-right {
+	float: right;
+	position: relative;
+	top: 10px;
+	right: 62px;
+	width: 330px;
+}
+
+.top-menu-right img {
+	float: left;
+	margin-top: 11px;
+	margin-left: 7px;
+	margin-right: 7px;
+}
+
+.top-menu-right p {
+	margin-right: 7px;
+	margin-top: 11px;
+	float: left;
+	color: #6e6e6e;
+}
+
+.top-menu-right li {
+	float: left;
+	margin: 12px 2px;
+}
+
+.top-menu-right a {
+	color: #a9a9a9;
+	text-decoration: none;
+}
+
+.top-menu-right a:hover {
+	text-decoration: underline;
+}
+
+.logo {
+	font-family: "Myriad Pro";
+	float: left;
+    position: relative;
+    top: 25px;
+	left: -185px;
+}
+
+.form {
+	background:url(../images/shearch_bg.png) top center no-repeat;
+	width: 309px;
+	height: 38px;
+	float: right;
+	position: relative;
+    top: 12px;
+	left: -78px;
+}
+
+.text {
+	float: left;
+	margin: 7px;
+}
+
+input[type=text] {
+	border: 0;
+	background: #121212;
+	color: #5d5d5d;
+}
+
+.sumbit {
+	float: right;
+	margin: 6px;
+}
+
+h1 {
+	font-size: 58px;
+	color: #fff;
+
+}
+
+h2 {
+	font-size: 22px;
+	color: #595959;
+}
+
+.wrapper {
+	width: 1070px;
+}
+
+nav {
+	overflow: hidden;
+	background: linear-gradient(180deg, #323232, #2d2d2d, #282828);
+	width: 1070px;
+}
+
+nav ul {
+	margin-left: 70px;
+}
+
+nav ul li {
+	float: left;
+	font: bold 14px Arial;
+}
+
+nav ul li a {
+	display: block;
+	color: #9c9c9c;
+	margin: 15px 30px 17px 0;
+	text-decoration: none;
+}
+
+nav ul li a:hover {
+	text-decoration: underline;
+}
+
+.content {
+	background: #282828;
+	margin-top: 7px;
+	padding-bottom: 1px;
+}
+
+.block-center {
+	width: 960px;
+	margin: 0 auto;
+	padding-top: 16px;
+	overflow: hidden;
+}
+
+.block-image {
+	background: #222222;
+	border-radius: 12px;
+	margin-bottom: 20px;
+	margin-right: 10px;
+	padding: 15px 12px 27px 12px;
+	float: left;
+	height: 225px;
+	width: 206px;
+}
+
+.block-head {
+	background: #161616;
+	overflow: hidden;
+	font-size: 12px;
+	padding: 11px;
+}
+
+p.left {
+	float: left;
+	color: #5d5d5d;
+}
+
+p.right {
+	float: right;
+	color: #545252;
+}
+
+p.right img {
+	margin: 0 3px -5px 0;
+}
+
+figure {
+	background: #1b1b1b;
+	padding: 24px 41px;
+}
+
+.block-foot {
+	padding: 15px 0;
+}
+
+.navigation {
+	background: #202020;
+	overflow: hidden;
+	margin: 18px 58px;
+	padding: 15px;
+	font-size: 14px;
+	font-weight: bold;
+	border-radius: 7px;
+	width: 920px;
+}
+
+.navigation p {
+	padding-top: 9px;
+	float: left;
+	color: #4a4a4a;
+}
+
+.navigation p strong {
+	color: #757575;
+}
+
+.navigation li {
+	float: right;
+}
+
+.navigation li a {
+	display: block;
+	background: #1c1c1c;
+	border-radius: 5px;
+	margin-left: 5px;
+	padding: 10px 15px;
+	color: #e5e5e5;
+	text-decoration: none;
+}
+
+.navigation li.active a {
+	background: #0b0b0b;
+	color: #949494;
+	text-decoration: none;
+}
+
+.navigation li a:hover, .navigation li.active a:hover {
+	background: #0b0b0b;
+	color: #949494;
+	text-decoration: underline;
+}
+
+footer {
+	background: #232323;
+	overflow: hidden;
+	width: 1070px;
+}
+
+.footer-content {
+	background: #121212;
+	margin-top: 7px;
+	overflow: hidden;
+	width: 1070px;
+}
+
+.foot-block {
+	float: left;
+	margin-left: 75px;
+	margin-bottom: 30px;
+	color: #4a4a4a;
+}
+
+.foot-block h3 {
+	margin: 25px 0;
+	font: normal 27px "Myriad Pro";
+	color: #fff;
+}
+
+.foot-block li {
+	font-size: 14px;
+}
+
+.foot-block strong {
+	color: #a2a2a2;
+}
+
+.block {
+	background: url(../images/block.png) bottom center no-repeat;
+	margin-top: -17px;
+	height: 134px;
+	width: 232px;
+}
+
+h3.right {
+	margin-left: 20px;
+}
+
+.foot-block .right {
+    margin-top: 30px;
+    padding-right: 28px;
+}
+
+.foot-block p {
+	font-size: 12px;
+}
+
+.foot-block p strong {
+	color: #b9b9b9;
+}
+
+.foot-content-bott {
+	background: #000;
+	overflow: hidden;
+	border-top: 1px solid #202020;
+}
+
+.copy {
+	float: left;
+	margin-left: 70px;
+	padding-top: 12px;
+	color: #4a4a4a;
+}
+
+.copy strong {
+	color: #757575;
+}
+
+.bottom-menu {
+	float: right;
+	margin-right: 54px;
+}
+
+.bottom-menu li {
+	float: left;
+	margin: 12px 2px;
+}
+
+.bottom-menu li a {
+	color: #4a4a4a;
+	text-decoration: none;
+}
+
+.bottom-menu li a:hover {
+	text-decoration: underline;
+}
+
